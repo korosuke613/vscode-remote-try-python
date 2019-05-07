@@ -1,9 +1,11 @@
 {
 	"name": "Python Sample",
 	"dockerFile": "Dockerfile",
-	"appPort": 9000,
+	"appPort": "9090:9090",
 	"context": "..",
 	"extensions": [
-		"ms-python.python"
+		"ms-python.python",
+		"formulahendry.terminal",
+		"esbenp.prettier-vscode"
 	]
 }
